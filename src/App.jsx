@@ -1,9 +1,13 @@
-import HocExample from "./components/02/reuse/hocExample";
+import {
+  RenderPropsExample1,
+  RenderPropsExample2,
+} from "./components/02/reuse/renderPropsExample";
 
 function App() {
   return (
     <div>
-      <HocExample />
+      <RenderPropsExample1 />
+      <RenderPropsExample2 />
     </div>
   );
 }
