@@ -1,9 +1,9 @@
-import { ClassComponent } from "./components/02/classExample.jsx";
+import { UseStateExample } from "./components/04/index";
 
 function App() {
   return (
     <div>
-      <ClassComponent />
+      <UseStateExample />
     </div>
   );
 }
