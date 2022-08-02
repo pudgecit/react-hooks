@@ -1,13 +1,9 @@
-import {
-  RenderPropsExample1,
-  RenderPropsExample2,
-} from "./components/02/reuse/renderPropsExample";
+import { ClassComponent } from "./components/02/classExample.jsx";
 
 function App() {
   return (
     <div>
-      <RenderPropsExample1 />
-      <RenderPropsExample2 />
+      <ClassComponent />
     </div>
   );
 }
