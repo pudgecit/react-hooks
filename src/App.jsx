@@ -1,10 +1,9 @@
-import { UseStateExample } from "./components/04/index";
-import { UseEffectExample } from "./components/05/index.jsx";
+import { UseEffectComplexOne } from "./components/05/complexCase.jsx";
 
 function App() {
   return (
     <div>
-      <UseEffectExample />
+      <UseEffectComplexOne />
     </div>
   );
 }
