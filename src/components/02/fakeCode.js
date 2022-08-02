@@ -9,3 +9,23 @@ function someFunctionComponent() {
 
 const ui = someFunctionComponent();
 console.log(ui);
+
+
+
+
+
+class MyReact {
+  domContent = null;
+
+  setState(someNewState) {
+    this.domContent = this.someChildComponent(someNewState);
+  }
+
+  someChildComponent(state) {
+    return null;
+  }
+
+  render() {
+    return this.domContent;
+  }
+}
