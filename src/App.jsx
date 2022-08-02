@@ -1,5 +1,11 @@
+import { ClassComponent } from "./components/02/classExample.jsx";
+
 function App() {
-  return <div>hello world</div>;
+  return (
+    <div>
+      <ClassComponent />
+    </div>
+  );
 }
 
 export default App;
