@@ -1,9 +1,9 @@
-import { UseMemoExample } from "./components/06/index.jsx";
+import { UseCustomizeHookExample } from "./components/08/index.jsx";
 
 function App() {
   return (
     <div>
-      <UseMemoExample />
+      <UseCustomizeHookExample />
     </div>
   );
 }
