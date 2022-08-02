@@ -1,9 +1,9 @@
-import { UseEffectComplexOne } from "./components/05/complexCase.jsx";
+import { UseMemoExample } from "./components/06/index.jsx";
 
 function App() {
   return (
     <div>
-      <UseEffectComplexOne />
+      <UseMemoExample />
     </div>
   );
 }
