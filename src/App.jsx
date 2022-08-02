@@ -1,9 +1,9 @@
-import { ClassComponent } from "./components/02/classExample.jsx";
+import HocExample from "./components/02/reuse/hocExample";
 
 function App() {
   return (
     <div>
-      <ClassComponent />
+      <HocExample />
     </div>
   );
 }
